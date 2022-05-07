@@ -1,0 +1,68 @@
+.post{
+    margin: 0px 5px 5px 5px;
+    display: flex;
+    flex:27%;
+    flex-direction: column;
+    width:50%;
+    justify-content: center;
+    align-items:center;    
+    background-color: #edf1f3;
+}
+
+.articleInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.articleImg{
+    height: 200px;
+    margin-top: 10px;
+    border-radius: 10px;
+
+    width: 60%;
+    position: cover;
+}
+
+.datetime{
+    font-style: italic;
+    font-size: 13px;
+    font-weight: 400;
+    color: #999999;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.title{
+    font-size: 24px;
+    font-weight: 900;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.desc{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #444444;
+    margin-top: 15px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+}
+
+.postCats{
+   
+    padding-top: 10px;
+}
+
+.Linkpost{
+    color:#444444;
+    text-decoration: none;
+}
+
+.catdesc{
+    font-size: 20px;
+    color:black;
+}

@@ -1,0 +1,217 @@
+.logo a {
+    color:rgb(9, 104, 128);
+    text-align: center;
+   font-weight: 700;
+   font-size: 30px;
+   text-decoration: none;
+
+}
+ul{
+    margin-bottom: 0px;
+   
+}
+
+nav{
+    height:8vh;
+    width:100%;
+    position: sticky;
+    top: 0;
+    z-index:999;
+}
+
+.navLinks{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items:center ; 
+}
+
+.prof{
+    color:rgb(9, 104, 128);
+   display: flex;
+   }
+
+ .navLinks a{
+    text-decoration: none;
+    color:rgb(9, 104, 128); 
+    font-size:25px;
+    padding:0 30px 0 30px;
+    font-weight:500;
+}
+
+.navLinks a:hover{
+ color: rgb(17, 198, 243);
+}
+
+
+.divide{
+    display: flex;
+}
+
+.linkStyle{
+    text-decoration: none;
+} 
+
+
+.rightlinks{
+    list-style:none;
+    display: flex;
+    gap: 1;
+    margin-top:10px;
+
+}
+
+.rightlinks a{
+    text-decoration: none;
+    color:rgb(9, 104, 128);
+    font-size:25px;
+    padding: 0px 30px;
+    font-weight:500;
+}
+
+.rightlinks a:hover{
+    color:rgb(17, 198, 243);
+}
+
+li.link{
+font-size: 25px;
+color:rgb(9, 104, 128);
+font-weight:500;
+padding:0 30px 0 30px;
+cursor: pointer;
+}
+
+li.link:hover{
+    color:rgb(17, 198, 243);
+}
+
+
+.link {
+    font-size: 25px;
+    padding: 8px 25px  0 30px;
+    font-weight: 500;
+}
+
+a{
+    text-decoration: none; 
+}
+
+.profileimg{
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    margin: 13px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.desktopView{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mobileView{
+    display: none;
+}
+
+.hamburger-toggle{
+   
+  display:none;
+}
+
+
+@media screen and (max-width: 664px) {
+    nav{
+        height:10vh;
+        
+    }
+    .hamburger-toggle{
+        display:flex;
+        color:rgb(9, 104, 128);
+        cursor:pointer;
+        font-size: 25px;
+        align-items: center;
+        top: 0;
+        right: 0;
+        position: absolute;
+        margin: 8px;
+        margin-top: 15px;
+    }
+    .desktopView{
+        display: none;
+    }
+    .logo{
+        top: 0;
+        left: 0;
+        padding-left: 10px;
+        position: absolute;  
+    }
+    .link {
+        font-size: 25px;
+        padding:0px;
+        /* padding: 8px 25px  0 30px; */
+        font-weight: 500;
+    }
+    .mobileView{
+        display: flex;
+        justify-content: center;
+    position: relative;
+    padding: 26px;
+background-color: aliceblue;
+    }
+    nav{
+        height:auto
+    }
+    .mobileV{
+        display: flex;
+        flex-direction: column;
+        height:150px;
+       
+
+    }
+    .navLinks{
+        display: flex;
+        flex-direction: column;
+    }
+    .navLinks a{
+      
+        padding:0;
+
+    }
+    .linkm{
+        font-size: 25px;
+        padding: 0px ;
+        
+        font-weight: 500; 
+    }
+    .linkm:hover{
+        color:rgb(17, 198, 243);
+    
+    }
+    .prof{
+        display: flex;
+        flex-direction: column;
+    }
+    .closeIcon{
+        position: absolute;
+        top:0;
+        right:0;
+        font-size: 25px;
+        cursor: pointer;
+        margin: 8px;
+
+    }
+    ul{
+        padding: 0px;
+    }
+    .rightlinks{
+       margin-top: 0;
+        flex-direction: column;
+    }
+    .rightlinks a{
+        padding:0;
+
+    }
+}
+
+

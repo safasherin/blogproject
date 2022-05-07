@@ -1,0 +1,94 @@
+.registerField{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    
+}
+
+.registerpage{
+    background: rgba(0,0,0,0.7)url("https://images.pexels.com/photos/4467858/pexels-photo-4467858.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-size: cover;
+    background-repeat: no-repeat;
+     background-blend-mode: darken;
+}
+
+
+.registerinputField{
+    margin-bottom: 20px;
+    width:200px;
+    height:50px;
+    padding:10px 10px;
+    font-size: 20px;
+    background-color: transparent;
+    border-radius: 50px;
+    border:1px solid white;
+   outline: none;
+   color:white;
+   transition: 0.25s;
+}
+
+.registerinputField:hover{
+    margin-bottom: 20px;
+    width:300px;
+    height:50px;
+    padding:10px 60px;
+    background-color: transparent;
+    border-radius: 50px;
+    border:1px solid white;
+}
+.registertitle{
+    color:white;
+    letter-spacing:3px;
+}
+
+.registerField a{
+    text-decoration: none;
+    margin-bottom: 15px;
+    
+}
+
+.registerAnchor{
+    color:white;
+}
+.registerAnchor:hover{
+    color:wheat;
+}
+.registerinputbtn{
+    border-radius: 50px;
+    width: 150px;
+    color:white;
+    font-weight: bold;
+    background-color:teal;
+    text-transform: uppercase;
+    border:1px solid white;
+margin-bottom:30px;
+}
+
+.registerinputbtn:hover{
+    color:black;
+    font-weight: bold;
+
+    background-color: white;
+}
+
+.imgfield{
+    /* size:100px; */
+    margin-bottom: 20px;
+    border-radius: 20px;
+    width: 200px;
+}
+
+
+.alertdiv{
+    color:red;
+    background-color: aliceblue;
+    border-radius: 20px;
+  
+}
+
+.alertdiv li{
+    list-style: none;
+    font-size: 20px;
+}

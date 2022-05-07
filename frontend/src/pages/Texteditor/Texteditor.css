@@ -1,0 +1,84 @@
+
+
+
+  .Texteditor{
+    display:flex;
+    flex-direction: column;
+ margin: 10px;
+  }
+.fileInput{
+  margin-left: 8px;
+}
+.writeIcon{
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  color:teal;
+
+}
+
+.displayImg{
+
+ width:100px;
+ height: 100px;
+  margin-left:8px;
+}
+  .descEditor{
+    display: flex;
+    margin: 16px 10px;
+  }
+.titleEditor{
+  display: flex;
+  margin:8px;
+}
+  .titlefield{
+    /* margin:10px; */
+  width:90%;
+  margin-left: 5px;
+  }
+
+ .categoryfield{
+  width:87.8%;
+  margin-left: 5px;
+ }
+.btnDiv{
+  display: flex;
+   justify-content: center;
+}
+ .publishbtn{
+   width:150px;
+   background-color:teal;
+   border: none;
+   color:white;
+   padding: 8px;
+ }
+ .publishbtn:disabled{
+  cursor: not-allowed;
+  background-color: rgb(252, 173, 173);
+}
+ .editor{
+   margin-right: 10px;
+ }
+
+ .ck-editor__editable_inline {
+  min-height: 400px;
+}
+
+@media screen and (max-width: 888px) {
+  .descEditor{
+    display: flex;
+   flex-direction: column;
+  }
+.editor{
+  margin-bottom: 8px;
+
+}
+
+.categoryfield{
+  margin-left: 0px;
+}
+.titlefield{
+  margin-left: 0px;
+  width: 88%;
+}
+}

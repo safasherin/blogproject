@@ -1,0 +1,104 @@
+.singlePost{
+    flex:9;
+    margin:10px;
+}
+
+.singleArti{
+    padding:20px;   
+}
+
+.singleArtiImg{
+    width:100%;
+    border-radius: 5px;
+    height:415px;
+    object-fit:contain;
+}
+
+.singleArtiTitle{
+    text-align: center;
+    margin: 6px;
+}
+
+.singleArtiEdit{
+ float:right;
+}
+
+.singleArtiIcon{
+    padding:6px;
+    font-size:30px;
+    cursor: pointer;
+}
+
+.singleArtiIcon:first-child{
+    color:green;
+}
+
+.singleArtiIcon:last-child{
+    color:red;
+}
+
+.singleArtiDesc{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.singleArtiDesc:first-letter{
+margin-left: 15px;
+font-size: 30px;
+font-weight: 600;
+}
+
+.singleArtiTitleInput{
+    margin: 10px;
+    width: 500px;
+
+    font-size: 28px;
+    text-align: center;
+    border: none;
+    color: gray;
+    border-bottom: 1px solid lightgray;
+}
+
+.singleArtiDescInput{
+    margin: 10px;
+    width: 500px;
+    font-size: 28px;
+    text-align: center;
+    border: none;
+    color: gray;
+    border-bottom: 1px solid lightgray;
+}
+
+.singlePstbtnDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.singlePstbtnDivLoading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.loadingP{
+color:teal;
+font-weight: 500;
+font-size: 25px;
+}
+.singlePostButton{
+     border-radius: 50px;
+    padding: 10px 30px;   
+    width:200px;
+
+    color:white;
+    /* margin-top:100px; */
+    /* margin-left: 1150px; */
+    font-weight: bold;
+    background-color:teal;
+    text-transform: uppercase;
+    border:1px solid white;
+}
+
